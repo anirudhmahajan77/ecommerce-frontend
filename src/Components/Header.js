@@ -35,7 +35,6 @@ class Header extends React.Component {
                 })            
             })
         }
-        
     }
 
     render() {
@@ -54,7 +53,7 @@ class Header extends React.Component {
                     { this.state.searchSuggestion!==[]?
                         this.state.searchSuggestion.map((suggestion)=>{
                             return (
-                                <p>{suggestion.name}</p>
+                                <Link className='searchSuggestionLink' key={suggestion.uuid} to={`/product/${suggestion.uuid}`}><p>{suggestion.name}</p></Link>
                             )
                         })
                         : null

@@ -56,3 +56,7 @@
 .addProductLink, .searchLink{
     text-decoration: none;
 }
+.searchSuggestionLink{
+    text-decoration: none;
+    color: black;
+}
