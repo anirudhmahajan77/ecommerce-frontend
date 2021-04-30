@@ -4,10 +4,6 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 class Product extends React.Component {
-    constructor() {
-        super();
-    }
-
     deleteProduct = () => {
         axios.delete("/product/" + this.props.product.uuid).then(
             () => {

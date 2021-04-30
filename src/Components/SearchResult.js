@@ -3,9 +3,6 @@ import Header from './Header';
 import SearchList from './SearchList';
 
 class SearchResult extends React.Component{
-    constructor(){
-        super();
-    }
 
     componentDidMount(){
         console.log(this.props);
