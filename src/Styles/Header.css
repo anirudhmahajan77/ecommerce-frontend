@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color: #c3c3c3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.fix{
+    height: 100px;
+}
+.title{
+    width: 'auto';
+}
+.search{
+    margin-bottom: 20px;
+}
+.searchbar{
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 400px;
+}
+.searchicon{
+    margin-bottom: -330px;
+    width: 60px;
+    height: 34px;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+}
+.addProduct{
+    background-color: blueviolet;
+    padding: 6px;
+    color: aliceblue;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.searchsuggestions{
+    position: absolute;
+    top: 52px;
+    left: 534px;
+    background-color: darkgray;
+    width: 300px;
+    padding-left: 17px;
+    text-decoration: underline;
+}
+.homeLink{
+    text-decoration: none;
+    color: black;
+}
+.addProductLink, .searchLink{
+    text-decoration: none;
+}

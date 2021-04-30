@@ -1,0 +1,17 @@
+.categoryHolder{
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+}
+.category{
+    width: auto;
+    height: auto;
+    border: 1px black solid;
+    border-radius: 6px;
+    padding: 4px 7px 4px 7px;
+    margin-left: 10px;
+}
+.categoryLink{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,36 @@
+.productDetailHolder{
+    width: 70%;
+    margin-left: 200px;
+    margin-right: auto;
+}
+.editLink{
+    text-decoration: none;
+    color: black;
+}
+.editProductButton{
+    background-color: 	#3cb371;
+    width: 60px;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 8px 4px 8px;
+    color: black;
+    cursor: pointer;
+}
+.buttonHolder{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tagHolder{
+    display: flex;
+    flex-direction: row;
+}
+.tag{
+    width: auto;
+    height: auto;
+    border: 1px black solid;
+    border-radius: 6px;
+    padding: 4px 7px 4px 7px;
+    margin-left: 10px;
+}

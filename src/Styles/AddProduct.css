@@ -1,0 +1,86 @@
+.holder{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    background-color: darkgrey;
+    clear: both;
+}
+.arrow{
+    font-size: x-large;
+    margin-left: -120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    color: black;
+    cursor: pointer;
+}
+.body{
+    margin-top: 130px;
+    width: 75%;
+    margin-left: 440px;
+    margin-right: auto;
+}
+.fieldName{
+    width: auto;
+    display: inline;
+}
+.inputField{
+    width: 300px;
+    height: 40px;
+    border: 1px black solid;
+    border-radius: 4px;
+    position: absolute;
+    left: 750px;
+}
+.inputHolder{
+    margin-bottom: 50px;
+}
+.checkboxHolder{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 750px;
+    top: 488px;
+}
+.checkboxGroup{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.actionButton{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+.addNewProduct{
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #3cb371;
+    border-radius: 4px;
+    color: black;
+    padding: 4px 10px 4px 10px;
+    cursor: pointer;
+}
+.cancelProduct{
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    border-radius: 4px;
+    background-color:#ff4040;
+    padding: 6px 10px 6px 10px;
+    cursor: pointer;
+}
+.cancelLink{
+    text-decoration: none;
+}
