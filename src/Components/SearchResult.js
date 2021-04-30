@@ -5,7 +5,6 @@ import SearchList from './SearchList';
 class SearchResult extends React.Component{
 
     componentDidMount(){
-        console.log(this.props);
     }
 
     render(){

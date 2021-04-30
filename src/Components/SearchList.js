@@ -21,7 +21,6 @@ class SearchList extends React.Component{
             this.setState({
                 product: response
             })
-            console.log(response)
         })
     }
 

@@ -20,7 +20,6 @@ class ProductList extends React.Component{
             this.setState({
                 product: response
             })
-            console.log(response)
         })
     }
 
