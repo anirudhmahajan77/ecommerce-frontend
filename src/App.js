@@ -8,6 +8,7 @@ import CategoryTwo from './Components/CategoryTwo';
 import CategoryThree from './Components/CategoryThree';
 import CategoryFour from './Components/CategoryFour';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import 'react-app-polyfill/stable';
 
 function App() {
   return (
