@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 class Product extends React.Component {
     deleteProduct = () => {
-        axios.delete("/product/" + this.props.product.uuid).then(
+        axios.delete("http://ecommerce-assignment-full.herokuapp.com/product/" + this.props.product.uuid).then(
             () => {
                 this.props.refresh();
             }

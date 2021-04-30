@@ -20,7 +20,7 @@ class ProductDetail extends React.Component {
 
     componentDidMount() {
         const id = this.props.match.params.detailKey;
-        axios.get('/product/' + id).then(
+        axios.get('http://ecommerce-assignment-full.herokuapp.com/product/' + id).then(
             (response) => {
                 let product = response.data.product;
                 let productTags = []

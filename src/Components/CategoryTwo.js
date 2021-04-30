@@ -36,7 +36,7 @@ class CategoryTwo extends React.Component{
     }
 
     loadProducts = () => {
-        axios.get('/category/2').then((res) => {
+        axios.get('http://ecommerce-assignment-full.herokuapp.com/category/2').then((res) => {
             let response = res.data.product;
             this.setState({
                 product: response

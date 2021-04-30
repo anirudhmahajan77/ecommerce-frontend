@@ -29,7 +29,7 @@ class AddProduct extends React.Component {
         else if (this.state.description === '') {
             alert("Description Cannot Be Empty!");
         } else {
-            axios.post("/product", this.state);
+            axios.post("http://ecommerce-assignment-full.herokuapp.com/product", this.state);
             this.setState({
                 name: '',
                 price: 0,

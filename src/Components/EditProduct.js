@@ -17,7 +17,7 @@ class EditProduct extends React.Component {
     }
 
     componentDidMount(){
-        axios.get('/product/'+this.props.match.params.editKey).then(
+        axios.get('http://ecommerce-assignment-full.herokuapp.com/product/'+this.props.match.params.editKey).then(
             (response) => {
                 console.log(response.data.product);
                 let res = response.data.product

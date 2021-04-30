@@ -15,7 +15,7 @@ class ProductList extends React.Component{
     }
 
     loadProducts = () => {
-        axios.get('/product').then((res) => {
+        axios.get('http://ecommerce-assignment-full.herokuapp.com/product').then((res) => {
             let response = res.data.product;
             this.setState({
                 product: response

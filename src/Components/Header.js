@@ -28,7 +28,7 @@ class Header extends React.Component {
             search: searchValue
         })
         if(searchValue !== ''){
-            axios.get('/search/'+ searchValue).then((res) => {
+            axios.get('http://ecommerce-assignment-full.herokuapp.com/search/'+ searchValue).then((res) => {
                 let response = res.data.product;
                 this.setState({
                     searchSuggestion: response,

@@ -36,7 +36,7 @@ class CategoryThree extends React.Component{
     }
 
     loadProducts = () => {
-        axios.get('/category/3').then((res) => {
+        axios.get('http://ecommerce-assignment-full.herokuapp.com/category/3').then((res) => {
             let response = res.data.product;
             this.setState({
                 product: response

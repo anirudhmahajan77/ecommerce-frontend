@@ -16,7 +16,7 @@ class SearchList extends React.Component{
     }
 
     loadProducts = () => {
-        axios.get('/search/'+this.props.searchKey).then((res) => {
+        axios.get('http://ecommerce-assignment-full.herokuapp.com/search/'+this.props.searchKey).then((res) => {
             let response = res.data.product;
             this.setState({
                 product: response

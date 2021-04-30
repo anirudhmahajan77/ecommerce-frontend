@@ -15,7 +15,7 @@ class CategoryList extends React.Component{
     }
 
     loadProducts = () => {
-        axios.get('/category/'+this.props.id).then((res) => {
+        axios.get('http://ecommerce-assignment-full.herokuapp.com/category/'+this.props.id).then((res) => {
             let response = res.data.product;
             this.setState({
                 product: response
