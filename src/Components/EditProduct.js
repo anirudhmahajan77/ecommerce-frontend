@@ -46,7 +46,7 @@ class EditProduct extends React.Component {
         else if (this.state.description === '') {
             alert("Description Cannot Be Empty!");
         } else {
-            axios.put("/product/"+this.props.match.params.editKey, this.state);
+            axios.put("http://ecommerce-assignment-full.herokuapp.com/product/"+this.props.match.params.editKey, this.state);
             alert("Product Updated Successfully!");
         }
 
